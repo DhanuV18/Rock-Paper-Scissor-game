@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9893a85e9a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="header__heading">Rock Paper Scissor</h1>
+        <div class="button">
+          <button id="restart" class="restart-btn">Restart</button>
+        </div>
+        
+        <div id="score" class="score">
+          <div class="score__player">Player : 0</div>
+          <div class="score__computer">Computer : 0</div>
+        </div>
+
+      </header>
+      <h2 class="message">Choose your option</h2>
+      <div class="choices">
+   
+            <span class="list paper"><i class="fa-regular fa-hand fa-5x" id="paper"></i></span>
+            <span class="list rock"><i class="fa-regular fa-hand-rock fa-5x" id="rock"></i></span>
+            <span class="list scissors"><i class="fa-regular fa-hand-scissors fa-5x" id="scissors"></i></span>              
+                  
+      </div>
+
+    <!-- modals -->
+
+    <div class="modal" id="modal">
+      <div id="result" class="result">
+    
+      </div>
+    </div>
+
+
+    
+    <script src="main.js"></script>
+  </body>
+</html>
+
