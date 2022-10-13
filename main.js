@@ -85,7 +85,7 @@ function showWinner(winner, computerChoice){
         scoreBoard.player++;
 
         result.innerHTML = `
-        <h1 class="text-win">You win</h1>
+        <h1 class="text-win">You won</h1>
         <span class="list ${computerChoice}"><i class="fa-regular fa-hand-${computerChoice} fa-5x" id="${computerChoice}"></i></span>
         <p>Computer chose <strong>${computerChoice}</strong></p>
         `;
@@ -95,7 +95,7 @@ function showWinner(winner, computerChoice){
         scoreBoard.computer++;
 
         result.innerHTML = `
-        <h1 class="text-lose">You lose</h1>
+        <h1 class="text-lose">You lost</h1>
         <span class="list ${computerChoice}"><i class="fa-regular fa-hand-${computerChoice} fa-5x" id="${computerChoice}"></i></span>
         <p>Computer chose <strong>${computerChoice}</strong></p>
         `;
